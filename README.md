@@ -45,7 +45,10 @@ Running the simulation
 -----
 >> roslaunch teleop_legged_robots teleop.launch robot_name:="spot1"
 -----             
-
+> Step 4: To launch sensors:
+-----
+>> Follow instructions listed in https://github.com/Field-Robotics-Japan/UnitySensorsROSAssets
+-----
 NOTE
 -----
 > If the export ROS_XX commands are not run, messages would not be passed between Unity and ROS.
