@@ -51,3 +51,6 @@ NOTE
 > If the export ROS_XX commands are not run, messages would not be passed between Unity and ROS.
 -----
 > If running endpoint.launch terminates in a error of "port alerady used", simply change the port, export ROS_XX again and restart your terminal. 
+-----
+> In Unity, on the top bar, Robotics > ROS Settings > ROS IP Address and ROS Port should be the same the ROS_MASTER_URI as well as in 
+the endpoint.launch file (tcp_ip and tcp_port)
