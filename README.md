@@ -36,11 +36,11 @@ Running the simulation
 >> export ROS_IP=(IP Address)
 -----  
 > Step 2: Running the controller and spot kinematics:
+> note: change to mode:="stairs" for stair climbing parameters
 -----
 >> roslaunch rs_inverse inverse.launch robot_name:="spot1"
 -----
 >> roslaunch rs_base quadruped_controller.launch mode:="walking"
-change to mode:="stairs" for stair climbing parameters
 -----
 > Step 3: Running the Teleop node
 -----
