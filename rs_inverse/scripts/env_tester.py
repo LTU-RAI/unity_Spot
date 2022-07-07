@@ -11,8 +11,9 @@ from tf.transformations import euler_from_quaternion, quaternion_from_euler
 from std_msgs.msg import Float64
 from rs_msgs.msg import GaitInput
 from gazebo_msgs.msg import ModelStates, ContactsState, ContactState
+import os
 import sys
-sys.path.insert(0, '//home/b4/catkin_ws/src/spot_simulation/rs_inverse/scripts/')
+sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))#'//home/b4/catkin_ws/src/spot_simulation/rs_inverse/scripts/')
 
 from Bezier import BezierGait
 from SpotKinematics import SpotModel
