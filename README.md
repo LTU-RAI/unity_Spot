@@ -21,7 +21,7 @@ Download, compile and source the following packages in your catkin workspace
 
 > Step 1: Clone git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
 -----
-> Step 2: Clone git clone -b spot_control https://github.com/SoftServeSAG/spot_simulation.git
+> Step 2: Clone the "spot_simulation" branch of this repository 
 -----
 > Step 3: Clone git clone https://github.com/SoftServeSAG/teleop_legged_robots.git
 -----
@@ -57,3 +57,4 @@ NOTE
 -----
 > In Unity, on the top bar, Robotics > ROS Settings > ROS IP Address and ROS Port should be the same as the ROS_MASTER_URI as well as in 
 the endpoint.launch file (tcp_ip and tcp_port)
+> In event of "No module found", please check and update the shebang in the corresponding python file to python3 
