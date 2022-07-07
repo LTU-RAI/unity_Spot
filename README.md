@@ -57,4 +57,5 @@ NOTE
 -----
 > In Unity, on the top bar, Robotics > ROS Settings > ROS IP Address and ROS Port should be the same as the ROS_MASTER_URI as well as in 
 the endpoint.launch file (tcp_ip and tcp_port)
+-----
 > In event of "No module found", please check and update the shebang in the corresponding python file to python3 
