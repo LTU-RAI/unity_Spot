@@ -21,7 +21,7 @@ Download, compile and source the following packages in your catkin workspace
 
 > Step 1: Clone git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
 -----
-> Step 2: Clone the "spot_simulation" branch of this repository 
+> Step 2: Clone the "spot_simulation" branch of this repository to control Spot
 -----
 > Step 3: Clone git clone https://github.com/SoftServeSAG/teleop_legged_robots.git
 -----
