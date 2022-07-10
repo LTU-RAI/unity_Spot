@@ -45,7 +45,7 @@ Download, compile and source the following packages in your catkin workspace.
 5. To launch sensors: <br>
     Follow instructions listed in https://github.com/Field-Robotics-Japan/UnitySensorsROSAssets
 
-## NOTES
+## Notes
 
 - If the ```export ROS_XX``` commands are not run, messages would not be passed between Unity and ROS.
 
