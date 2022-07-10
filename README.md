@@ -34,8 +34,12 @@ Running the simulation
 >> export ROS_MASTER_URI=http://(IP Address):11311
 -----
 >> export ROS_IP=(IP Address)
------  
-> Step 2: Running the controller and spot kinematics:
+-----
+> Step 2: Running the connection between ROS and Unity:
+-----
+>> roslaunch ros_tcp_endpoint endpoint.launch
+-----
+> Step 3: Running the controller and spot kinematics:
 -----
 >> roslaunch rs_inverse inverse.launch robot_name:="spot1"
 -----
@@ -43,11 +47,11 @@ Running the simulation
 -----
 >> > note: change to mode:="stairs" for stair climbing parameters
 -----
-> Step 3: Running the Teleop node
+> Step 4: Running the Teleop node
 -----
 >> roslaunch teleop_legged_robots teleop.launch robot_name:="spot1"
 -----             
-> Step 4: To launch sensors:
+> Step 5: To launch sensors:
 -----
 >> Follow instructions listed in https://github.com/Field-Robotics-Japan/UnitySensorsROSAssets
 -----
