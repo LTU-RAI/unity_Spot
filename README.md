@@ -36,8 +36,8 @@ Download, compile and source the following packages in your catkin workspace.
      roslaunch rs_base quadruped_controller.launch mode:="walking"
      ```
 
-- Note: change to mode:="stairs" for stair climbing parameters:
-    ```roslaunch rs_base quadruped_controller.launch mode:="staris"```
+- Note: change to ```mode:="stairs"``` for stair climbing parameters:
+    ```roslaunch rs_base quadruped_controller.launch mode:="stairs"```
 
 4. Running the Teleop node:
     ```roslaunch teleop_legged_robots teleop.launch robot_name:="spot1"```
